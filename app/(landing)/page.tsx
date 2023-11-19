@@ -1,6 +1,6 @@
 "use client";
 import "../../app/globals.css";
-import "bootstrap/dist/js/bootstrap.bundle"
+import "bootstrap/dist/js/bootstrap.bundle";
 import Link from "next/link";
 import { useAuth } from "@clerk/nextjs";
 import Script from "next/script";
@@ -1312,8 +1312,7 @@ const LandingPage: React.FC<LandingPageProps> = () => {
           </div>
         </footer>
       </div>
-      <Script src="/static/js/bundle6572.js" />
-      <Script src="/static/js/scripts6572.js" />
+      <Script src="/static/js/customs.js" />
     </div>
   );
 };
